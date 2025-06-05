@@ -11,7 +11,8 @@ public class useInsiderHomePage {
 	@FindBy(xpath = "//div[@id='navbarNavDropdown']/ul/li/a[contains(., 'Company')]")
 	public WebElement companySlction;
 	
-	
+	@FindBy(xpath = "//div[@class='new-menu-dropdown-layout-6-mid-container']/a[contains(., 'Careers')]")
+	public WebElement careersSlction;
 	
 
 	public useInsiderHomePage()

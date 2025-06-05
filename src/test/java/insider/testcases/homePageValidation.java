@@ -8,10 +8,10 @@ import insider.utils.CommonMethods;
 
 public class homePageValidation extends CommonMethods{
 	
-	@Test
+	@Test(groups ="smoke")
 	public void homeValidation()
 	{
-		
+		//check Insider home page is opened or not
 		String actualTitle = driver.getTitle();
 		String expectedTitle = "#1 Leader in Individualized, Cross-Channel CX — Insider";
 		
