@@ -15,7 +15,7 @@ public class Task4 extends CommonMethods{
 
 		click(qualityPage.seeQA);
 		waitForVisibility(qualityPage.viewHover);
-		wait(3);
+		wait(5);
 		selectDropdown(qualityPage.filterLocation, "Istanbul, Turkiye");
 		selectDropdown(qualityPage.filterDepartment, "Quality Assurance");
 		wait(3);

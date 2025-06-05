@@ -21,39 +21,6 @@ import insider.utils.Constants;
 
 public class BaseClass {
 	
-	public static WebDriver driver;
-
-	//ExtentReports objects
-	public static ExtentSparkReporter sparkReport;
-	public static ExtentReports report;
-	public static ExtentTest test;
-	
-	/**
-	 * This method will start the report creation process.
-	 */
-	@BeforeTest(alwaysRun=true)
-	public void generateReport()
-	{
-		sparkReport = new ExtentSparkReporter(Constants.REPORT_FILEPATH);
-		sparkReport.config().setDocumentTitle("My Document Title");
-		sparkReport.config().setReportName("My Report Name");
-		sparkReport.config().setTheme(Theme.DARK);
-		
-		report = new ExtentReports();
-		report.attachReporter(sparkReport);	
-	}
-	
-	/**
-	 * This method will write the report once tests are done.
-	 */
-	@AfterTest(alwaysRun=true)
-	public void writeReport()
-	{
-		report.flush();
-	}
-	
-	
-	
 	
 	
 	@BeforeMethod(alwaysRun=true)
@@ -106,5 +73,40 @@ public class BaseClass {
 			driver.quit();
 		}
 	}
+	
+	public static WebDriver driver;
+
+	//ExtentReports objects
+	public static ExtentSparkReporter sparkReport;
+	public static ExtentReports report;
+	public static ExtentTest test;
+	
+	/**
+	 * This method will start the report creation process.
+	 */
+	@BeforeTest(alwaysRun=true)
+	public void generateReport()
+	{
+		sparkReport = new ExtentSparkReporter(Constants.REPORT_FILEPATH);
+		sparkReport.config().setDocumentTitle("My Document Title");
+		sparkReport.config().setReportName("My Report Name");
+		sparkReport.config().setTheme(Theme.DARK);
+		
+		report = new ExtentReports();
+		report.attachReporter(sparkReport);	
+	}
+	
+	/**
+	 * This method will write the report once tests are done.
+	 */
+	@AfterTest(alwaysRun=true)
+	public void writeReport()
+	{
+		report.flush();
+	}
+	
+	
+	
+
 
 }

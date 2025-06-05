@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-05T11:42:04 GMT+03:00" name="Insider Test Suite" finished-at="2025-06-05T11:43:02 GMT+03:00" duration-ms="57129">
+  <suite started-at="2025-06-05T11:52:07 GMT+03:00" name="Insider Test Suite" finished-at="2025-06-05T11:53:12 GMT+03:00" duration-ms="65125">
     <groups>
       <group name="smoke">
         <method signature="Task1.homeValidation()[pri:0, instance:insider.testcases.Task1@305b7c14]" name="homeValidation" class="insider.testcases.Task1"/>
@@ -12,13 +12,13 @@
         <method signature="Task5.applicationPage()[pri:0, instance:insider.testcases.Task5@3c3d9b6b]" name="applicationPage" class="insider.testcases.Task5"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-06-05T11:42:04 GMT+03:00" name="Smoke Tests" finished-at="2025-06-05T11:43:02 GMT+03:00" duration-ms="57129">
+    <test started-at="2025-06-05T11:52:07 GMT+03:00" name="Smoke Tests" finished-at="2025-06-05T11:53:12 GMT+03:00" duration-ms="65125">
       <class name="insider.testcases.Task1">
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:insider.testcases.Task1@305b7c14]" started-at="2025-06-05T11:42:04 GMT+03:00" name="generateReport" finished-at="2025-06-05T11:42:05 GMT+03:00" duration-ms="154" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:insider.testcases.Task1@305b7c14]" started-at="2025-06-05T11:52:07 GMT+03:00" name="generateReport" finished-at="2025-06-05T11:52:07 GMT+03:00" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:insider.testcases.Task1@305b7c14]" started-at="2025-06-05T11:42:05 GMT+03:00" name="setUp" finished-at="2025-06-05T11:42:08 GMT+03:00" duration-ms="3749" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:insider.testcases.Task1@305b7c14]" started-at="2025-06-05T11:52:07 GMT+03:00" name="setUp" finished-at="2025-06-05T11:52:11 GMT+03:00" duration-ms="3687" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,21 +29,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="homeValidation()[pri:0, instance:insider.testcases.Task1@305b7c14]" started-at="2025-06-05T11:42:08 GMT+03:00" name="homeValidation" finished-at="2025-06-05T11:42:08 GMT+03:00" duration-ms="15" status="PASS">
+        <test-method signature="homeValidation()[pri:0, instance:insider.testcases.Task1@305b7c14]" started-at="2025-06-05T11:52:11 GMT+03:00" name="homeValidation" finished-at="2025-06-05T11:52:11 GMT+03:00" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:insider.testcases.Task1@305b7c14]" started-at="2025-06-05T11:42:08 GMT+03:00" name="tearDown" finished-at="2025-06-05T11:42:08 GMT+03:00" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:insider.testcases.Task1@305b7c14]" started-at="2025-06-05T11:52:11 GMT+03:00" name="tearDown" finished-at="2025-06-05T11:52:11 GMT+03:00" duration-ms="139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="writeReport()[pri:0, instance:insider.testcases.Task1@305b7c14]" started-at="2025-06-05T11:43:01 GMT+03:00" name="writeReport" finished-at="2025-06-05T11:43:02 GMT+03:00" duration-ms="163" status="PASS">
+        <test-method is-config="true" signature="writeReport()[pri:0, instance:insider.testcases.Task1@305b7c14]" started-at="2025-06-05T11:53:12 GMT+03:00" name="writeReport" finished-at="2025-06-05T11:53:12 GMT+03:00" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeReport -->
       </class> <!-- insider.testcases.Task1 -->
       <class name="insider.testcases.Task4">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:insider.testcases.Task4@158a8276]" started-at="2025-06-05T11:42:31 GMT+03:00" name="setUp" finished-at="2025-06-05T11:42:32 GMT+03:00" duration-ms="1051" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:insider.testcases.Task4@158a8276]" started-at="2025-06-05T11:52:37 GMT+03:00" name="setUp" finished-at="2025-06-05T11:52:40 GMT+03:00" duration-ms="3191" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,17 +54,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkJobs()[pri:0, instance:insider.testcases.Task4@158a8276]" started-at="2025-06-05T11:42:32 GMT+03:00" name="checkJobs" finished-at="2025-06-05T11:42:45 GMT+03:00" duration-ms="12234" status="PASS">
+        <test-method signature="checkJobs()[pri:0, instance:insider.testcases.Task4@158a8276]" started-at="2025-06-05T11:52:40 GMT+03:00" name="checkJobs" finished-at="2025-06-05T11:52:53 GMT+03:00" duration-ms="12935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkJobs -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:insider.testcases.Task4@158a8276]" started-at="2025-06-05T11:42:45 GMT+03:00" name="tearDown" finished-at="2025-06-05T11:42:45 GMT+03:00" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:insider.testcases.Task4@158a8276]" started-at="2025-06-05T11:52:53 GMT+03:00" name="tearDown" finished-at="2025-06-05T11:52:53 GMT+03:00" duration-ms="139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- insider.testcases.Task4 -->
       <class name="insider.testcases.Task5">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:insider.testcases.Task5@3c3d9b6b]" started-at="2025-06-05T11:42:45 GMT+03:00" name="setUp" finished-at="2025-06-05T11:42:48 GMT+03:00" duration-ms="3337" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:insider.testcases.Task5@3c3d9b6b]" started-at="2025-06-05T11:52:53 GMT+03:00" name="setUp" finished-at="2025-06-05T11:52:56 GMT+03:00" duration-ms="3322" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,17 +75,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="applicationPage()[pri:0, instance:insider.testcases.Task5@3c3d9b6b]" started-at="2025-06-05T11:42:48 GMT+03:00" name="applicationPage" finished-at="2025-06-05T11:43:01 GMT+03:00" duration-ms="13083" status="PASS">
+        <test-method signature="applicationPage()[pri:0, instance:insider.testcases.Task5@3c3d9b6b]" started-at="2025-06-05T11:52:56 GMT+03:00" name="applicationPage" finished-at="2025-06-05T11:53:12 GMT+03:00" duration-ms="15328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applicationPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:insider.testcases.Task5@3c3d9b6b]" started-at="2025-06-05T11:43:01 GMT+03:00" name="tearDown" finished-at="2025-06-05T11:43:01 GMT+03:00" duration-ms="131" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:insider.testcases.Task5@3c3d9b6b]" started-at="2025-06-05T11:53:12 GMT+03:00" name="tearDown" finished-at="2025-06-05T11:53:12 GMT+03:00" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- insider.testcases.Task5 -->
       <class name="insider.testcases.Task2">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:insider.testcases.Task2@7d8704ef]" started-at="2025-06-05T11:42:08 GMT+03:00" name="setUp" finished-at="2025-06-05T11:42:12 GMT+03:00" duration-ms="3217" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:insider.testcases.Task2@7d8704ef]" started-at="2025-06-05T11:52:11 GMT+03:00" name="setUp" finished-at="2025-06-05T11:52:14 GMT+03:00" duration-ms="3390" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,17 +96,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="companySelection()[pri:0, instance:insider.testcases.Task2@7d8704ef]" started-at="2025-06-05T11:42:12 GMT+03:00" name="companySelection" finished-at="2025-06-05T11:42:13 GMT+03:00" duration-ms="1667" status="PASS">
+        <test-method signature="companySelection()[pri:0, instance:insider.testcases.Task2@7d8704ef]" started-at="2025-06-05T11:52:14 GMT+03:00" name="companySelection" finished-at="2025-06-05T11:52:15 GMT+03:00" duration-ms="1253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- companySelection -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:insider.testcases.Task2@7d8704ef]" started-at="2025-06-05T11:42:13 GMT+03:00" name="tearDown" finished-at="2025-06-05T11:42:13 GMT+03:00" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:insider.testcases.Task2@7d8704ef]" started-at="2025-06-05T11:52:15 GMT+03:00" name="tearDown" finished-at="2025-06-05T11:52:16 GMT+03:00" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- insider.testcases.Task2 -->
       <class name="insider.testcases.Task3">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:insider.testcases.Task3@13b6aecc]" started-at="2025-06-05T11:42:13 GMT+03:00" name="setUp" finished-at="2025-06-05T11:42:17 GMT+03:00" duration-ms="3634" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:insider.testcases.Task3@13b6aecc]" started-at="2025-06-05T11:52:16 GMT+03:00" name="setUp" finished-at="2025-06-05T11:52:19 GMT+03:00" duration-ms="3365" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,11 +117,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="seeAllQA()[pri:0, instance:insider.testcases.Task3@13b6aecc]" started-at="2025-06-05T11:42:17 GMT+03:00" name="seeAllQA" finished-at="2025-06-05T11:42:31 GMT+03:00" duration-ms="14142" status="PASS">
+        <test-method signature="seeAllQA()[pri:0, instance:insider.testcases.Task3@13b6aecc]" started-at="2025-06-05T11:52:19 GMT+03:00" name="seeAllQA" finished-at="2025-06-05T11:52:36 GMT+03:00" duration-ms="17527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seeAllQA -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:insider.testcases.Task3@13b6aecc]" started-at="2025-06-05T11:42:31 GMT+03:00" name="tearDown" finished-at="2025-06-05T11:42:31 GMT+03:00" duration-ms="143" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:insider.testcases.Task3@13b6aecc]" started-at="2025-06-05T11:52:36 GMT+03:00" name="tearDown" finished-at="2025-06-05T11:52:37 GMT+03:00" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
