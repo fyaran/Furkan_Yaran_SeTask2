@@ -22,6 +22,7 @@ public class Task3 extends CommonMethods{
 		selectDropdown(qualityPage.filterDepartment, "Quality Assurance");
 		
 		//check the jobs
+		wait(2);
 		Assert.assertTrue(qualityPage.jobsList.isDisplayed());
 		
 	}

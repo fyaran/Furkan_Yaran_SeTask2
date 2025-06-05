@@ -1,5 +1,7 @@
 package insider.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -20,6 +22,14 @@ public class useInsiderQualityPage {
 	@FindBy(css="#jobs-list")
 	public WebElement jobsList;
 	
+	@FindBy(xpath="//*[@id=\"jobs-list\"]/div/div/p")
+	public List<WebElement> jobPosition;
+	
+	@FindBy(xpath="//*[@id=\"jobs-list\"]/div/div/span")
+	public List<WebElement> departmentPosition;
+	
+	@FindBy(xpath="//*[@id=\"jobs-list\"]/div/div/div")
+	public List<WebElement> locationPosition;
 	
 
 	public useInsiderQualityPage()

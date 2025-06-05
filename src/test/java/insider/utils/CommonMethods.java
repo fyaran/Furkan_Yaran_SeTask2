@@ -7,7 +7,6 @@ import java.time.Duration;
 import java.util.Date;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
@@ -146,23 +145,6 @@ public class CommonMethods extends PageInitializer{
 	
 
 
-	/**
-	 * This method will create and return a JavascriptExecutor object.
-	 * 
-	 */
-	public static JavascriptExecutor getJSObject()
-	{
-		return (JavascriptExecutor) driver;
-		
-		/*
-		 The line above is the same as this: 
-		 
-		 JavascriptExecutor js = (JavascriptExecutor) driver;
-		 
-		 return js;
-		 
-		 */
-	}
 	
 	
 	
