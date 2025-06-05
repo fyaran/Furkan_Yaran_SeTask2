@@ -14,15 +14,14 @@ public class Task3 extends CommonMethods{
 		click(qualityPage.seeQA);
 		
 		//filter jobs by Location: “Istanbul, Turkey”
-		wait(2);
+		waitForVisibility(qualityPage.viewHover);
 		selectDropdown(qualityPage.filterLocation, "Istanbul, Turkiye");
 		
 		//filter Department: “Quality Assurance"
-		wait(2);
 		selectDropdown(qualityPage.filterDepartment, "Quality Assurance");
 		
 		//check the jobs
-		wait(2);
+		wait(3);
 		Assert.assertTrue(qualityPage.jobsList.isDisplayed());
 		
 	}

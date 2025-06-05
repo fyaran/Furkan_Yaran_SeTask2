@@ -14,11 +14,11 @@ public class Task4 extends CommonMethods{
 		
 
 		click(qualityPage.seeQA);
-		wait(2);
+		waitForVisibility(qualityPage.viewHover);
+		wait(3);
 		selectDropdown(qualityPage.filterLocation, "Istanbul, Turkiye");
-		wait(2);
 		selectDropdown(qualityPage.filterDepartment, "Quality Assurance");
-		wait(5);
+		wait(3);
 		
 		//Check that all jobs’ Position contains “Quality Assurance”
 		for (WebElement p : qualityPage.jobPosition)

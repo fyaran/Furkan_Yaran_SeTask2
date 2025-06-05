@@ -31,6 +31,11 @@ public class useInsiderQualityPage {
 	@FindBy(xpath="//*[@id=\"jobs-list\"]/div/div/div")
 	public List<WebElement> locationPosition;
 	
+	@FindBy(xpath="//*[@id=\"jobs-list\"]/div[1]/div")
+	public WebElement viewHover; 
+
+	@FindBy(xpath="//a[contains(text(), 'View Role')]")
+	public WebElement viewRole; 
 
 	public useInsiderQualityPage()
 	{

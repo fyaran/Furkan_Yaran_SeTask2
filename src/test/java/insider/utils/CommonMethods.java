@@ -5,14 +5,17 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import insider.testbase.PageInitializer;
 
 public class CommonMethods extends PageInitializer{
@@ -39,6 +42,32 @@ public class CommonMethods extends PageInitializer{
 		waitForClickability(element);
 		element.click();
 	}
+	
+	
+	
+	
+	/**
+	 * This method will create and return a JavascriptExecutor object.
+	 * 
+	 */
+	public static JavascriptExecutor getJSObject()
+	{
+		return (JavascriptExecutor) driver;
+		
+	}
+	
+	/**
+	 * This method will click on a given element using JavasciptExecutor
+	 * 
+	 * @param element
+	 */
+	public static void jsClick(WebElement element)
+	{
+
+		getJSObject().executeScript("arguments[0].click()", element);
+	}
+	
+	
 	
 	
 	
