@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="insider.testcases.homePageValidation">
+      <class name="insider.testcases.Task3">
         <methods>
           <include name="setUp"/>
-          <include name="homeValidation"/>
-          <include name="tearDown"/>
           <include name="writeReport"/>
+          <include name="tearDown"/>
+          <include name="seeAllQA"/>
           <include name="generateReport"/>
         </methods>
-      </class> <!-- insider.testcases.homePageValidation -->
+      </class> <!-- insider.testcases.Task3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

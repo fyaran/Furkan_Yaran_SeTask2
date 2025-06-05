@@ -1,5 +1,6 @@
 package insider.testbase;
 
+import java.lang.reflect.Method;
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
@@ -56,7 +57,7 @@ public class BaseClass {
 	
 	
 	@BeforeMethod(alwaysRun=true)
-	public static void setUp() {
+	public static void setUp(Method method) {
 		
 		ConfigsReader.readProperties(Constants.CONFIGURATION_FILEPATH);
 
@@ -81,7 +82,17 @@ public class BaseClass {
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Constants.IMPLICIT_WAIT_TIME));
-		String url = ConfigsReader.getProperty("url");
+		String methodName = method.getName();
+		String url;
+		if (methodName.equals("companySelection") || methodName.equals("homeValidation")){
+		 url = ConfigsReader.getProperty("url1");
+		}else {
+		 url = ConfigsReader.getProperty("url2");
+		}
+		
+		
+		
+		
 		driver.get(url);
 		
 		PageInitializer.initialize();

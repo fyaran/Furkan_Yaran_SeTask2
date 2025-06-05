@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import insider.utils.CommonMethods;
 
-public class companyMenuSelection extends CommonMethods {
+public class Task2 extends CommonMethods {
 	
 	@Test(groups ="smoke")
 	public void companySelection()

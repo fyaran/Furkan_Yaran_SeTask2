@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import insider.utils.CommonMethods;
 
-public class homePageValidation extends CommonMethods{
+public class Task1 extends CommonMethods{
 	
 	@Test(groups ="smoke")
 	public void homeValidation()
